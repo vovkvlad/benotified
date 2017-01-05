@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/vovkvlad/benotified#readme",
   "dependencies": {
-    "nodemailer": "^2.7.0"
+    "cheerio": "^0.22.0",
+    "nodemailer": "^2.7.0",
+    "request": "^2.79.0"
   }
 }

@@ -1,3 +1,4 @@
+/*
 let EmailSender = require('./mail-service');
 
 let userOptions = {
@@ -23,4 +24,13 @@ emailSender.send(email, function (error, info) {
         debugger;
         console.log(info);
     }
-});
+});*/
+
+let retrieve = require('./data-pumping');
+retrieve('ua')
+    .then((data)=>{
+    console.log(data);
+})
+    .catch((error)=>{
+    console.log(error);
+    });
