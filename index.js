@@ -26,11 +26,4 @@ emailSender.send(email, function (error, info) {
     }
 });*/
 
-let retrieve = require('./data-pumping');
-retrieve('ua')
-    .then((data)=>{
-    console.log(data);
-})
-    .catch((error)=>{
-    console.log(error);
-    });
+let dataStealingService = require('./data-pumping');
