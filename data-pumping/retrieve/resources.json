@@ -1,11 +1,5 @@
 {
   "main": {
-    "base": "http://www.myscore.com.ua/",
-    "ua": "football/ukraine/pari-match-league/fixtures/",
-    "champions":"football/europe/champions-league/fixtures/",
-    "europe": "football/europe/europa-league/fixtures/"
-  },
-  "secondary": {
     "base": "http://terrikon.com/",
     "ua": "football/ukraine/championship/matches",
     "champions":"champions-league",
